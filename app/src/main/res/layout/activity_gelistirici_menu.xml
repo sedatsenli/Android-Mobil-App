@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gelistiriciMenu">
+
+    <Button
+        android:id="@+id/fiksturEdit"
+        android:layout_width="235dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="158dp"
+        android:onClick="fiksturEdit"
+        android:text="Fikstür Düzenle"
+        app:layout_constraintBottom_toTopOf="@+id/takimimizEdit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/puandurumuEdit" />
+
+    <Button
+        android:id="@+id/takimimizEdit"
+        android:layout_width="235dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="142dp"
+        android:onClick="takimimizEdit"
+        android:text="Takımı Düzenle"
+        app:layout_constraintBottom_toTopOf="@+id/haberlerEdit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fiksturEdit" />
+
+    <Button
+        android:id="@+id/puandurumuEdit"
+        android:layout_width="235dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginBottom="141dp"
+        android:onClick="puandurumuEdit"
+        android:text="Puan Durumu Düzenle"
+        app:layout_constraintBottom_toTopOf="@+id/fiksturEdit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/haberlerEdit"
+        android:layout_width="235dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="106dp"
+        android:onClick="haberlerEdit"
+        android:text="Takımdan Haberleri Düzenle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/takimimizEdit" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/galatasaray1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/galatasaray1"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GalatasarayApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".takimdanhaberlerEdit"
+            android:exported="false" />
+        <activity
+            android:name=".takimEdit"
+            android:exported="false" />
+        <activity
+            android:name=".fiksturEdit"
+            android:exported="false" />
+        <activity
+            android:name=".gelistiriciMenu"
+            android:exported="false" />
+        <activity
+            android:name=".puandurumuEdit"
+            android:exported="false" />
+        <activity
+            android:name=".gelistiriciGiris"
+            android:exported="false" />
+        <activity
+            android:name=".fiksturumuz"
+            android:exported="false" />
+        <activity
+            android:name=".haberler"
+            android:exported="false" />
+        <activity
+            android:name=".takimimiz"
+            android:exported="false" />
+        <activity
+            android:name=".puan_durumu"
+            android:exported="false" />
+        <activity
+            android:name=".menu_activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

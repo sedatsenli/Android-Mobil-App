@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:id="@+id/takimAdi8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Takım"
+        android:textColor="#E80606"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/bos14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  |OM: "
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/oynananMac8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/bos1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" |G: "
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/galibiyet8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/bos2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" |B: "
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/beraberlik8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/bos3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" |M: "
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/maglubiyet8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/bos4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" |AG: "
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/atilanGol8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/bos7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" |YG: "
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/yenilenGol8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/bos5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" |A: "
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/averaj8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/bos6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" |P: "
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/puan8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+</LinearLayout>

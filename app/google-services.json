@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1076264631363",
+    "project_id": "galatasaray-mobil-app-6bb2c",
+    "storage_bucket": "galatasaray-mobil-app-6bb2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076264631363:android:e85b456d088a97424ba8f6",
+        "android_client_info": {
+          "package_name": "com.sedatsenli.galatasarayapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076264631363-nvm8nh466r21vj6u3i68ujt2iu2dpneb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGp4DyaJO52GP7J6Ip3UFfwCoPztDqPsY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076264631363-nvm8nh466r21vj6u3i68ujt2iu2dpneb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

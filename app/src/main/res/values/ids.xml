@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="oyuncuFoto" type="id" />
+    <item name="oyuncuImageview" type="id" />
+    <item name="oyuncuResim25" type="id" />
+</resources>
